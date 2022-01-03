@@ -1,0 +1,161 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto-Thin.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto-Regular.ttf");
+    font-weight: 300;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    background-color: #171314;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#fbfbff ;
+}
+
+a {
+    color:#171314;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+
+.header {
+    border: none;
+    background-color: #fab4af;
+}
+
+.main {
+    border: none;
+}
+
+.footer {
+    background-color: #fab4af;
+    border: none;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-link {
+   text-decoration: none;
+   color: #fbfbff;
+}
+
+.section {
+    width: 50%;
+    padding: 0 3%;    
+}
+
+.footer-container {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+
+    list-style: none;
+}
+
+.footer-item {
+    padding: 0 20px;
+    line-height: 50 px;
+    color: #171314;
+    font-size: 12px;
+    text-decoration: none;
+    transition: 2s;
+    
+}
+
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50 px;
+    text-decoration: none;
+    color: #171314;
+    transition: 2s;
+}
+
+.nav-item {
+    min-height: 40px;
+}
+
+.nav-item:hover {
+    background-color:#fcd3d0 ;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 900;
+    text-transform:uppercase;    
+    letter-spacing: 10px;
+    color: #b9b9cc;
+  }
+
+  .section-profile {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: none ;    
+    letter-spacing: 25px;
+    color: #fbfbff;
+  }
+  
