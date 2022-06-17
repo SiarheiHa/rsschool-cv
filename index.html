@@ -90,9 +90,9 @@
                         <ol class="code-wrapper">
                             <li class="code"><code>function deepCount(a){</code></li>
                             <li class="code"><code>  result = a.length;</code></li>
-                            <li class="code"><code>  for (el in a) {</code></li>
-                            <li class="code"><code>    if (typeof(a[el]) == 'object') {</code></li>
-                            <li class="code"><code>      result = result + deepCount(a[el])</code></li>
+                            <li class="code"><code>  for (el of a) {</code></li>
+                            <li class="code"><code>    if (typeof el === "object") {</code></li>
+                            <li class="code"><code>      result += deepCount(el);</code></li>
                             <li class="code"><code>    };</code></li>
                             <li class="code"><code>  };</code></li>
                             <li class="code"><code>  return result;</code></li>
@@ -104,7 +104,7 @@
                         <ul>
                             <li> 2011 - Belarusian State University - lawyer </li>
                             <li> <a class="contact-link" target="_blank"
-                                    href="https://app.rs.school/certificate/dpmwzgkc">2022
+                                    href="https://app.rs.school/certificate/uqtqe8d6">2022
                                     - The Rolling Scopes School - JS / FRONT-END. STAGE 0</a></li>
                         </ul>
                     </section>
@@ -134,7 +134,22 @@
                         <div class="project">
                             <a class="info-link" target="_blank"
                                 href="https://rolling-scopes-school.github.io/siarheiha-JSFEPRESCHOOL/random-game/">snake</a>
-
+                        </div>
+                        <div class="project">
+                            <a class="info-link" target="_blank"
+                                href="https://rolling-scopes-school.github.io/siarheiha-JSFE2022Q1/shelter/pages/main/">shelter</a>
+                        </div>
+                        <div class="project">
+                            <a class="info-link" target="_blank"
+                                href="https://siarheiha.github.io/cssMemSlider/cssMemSlider/">CSS-slider</a>
+                        </div>
+                        <div class="project">
+                            <a class="info-link" target="_blank"
+                                href="https://siarheiha.github.io/virtual-keyboard/">keyboard</a>
+                        </div>
+                        <div class="project">
+                            <a class="info-link" target="_blank"
+                                href="https://github.com/SiarheiHa/HTML-builder">HTML-builder</a>
                         </div>
                     </div>
                 </section>
